@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Her Shield</title>
+  <style>
+    /* Set background image for the whole page */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url("girllogo.jpg");
+      background-size: contain;
+      
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Popup container */
+    .popup-box {
+      background-color: rgba(255, 255, 255, 0.9); /* white with slight transparency */
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .popup-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .popup-box input,
+    .popup-box textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .popup-box button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .popup-box button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="popup-box">
+    <h2>HER SHIELD</h2>
+    <input type="text" placeholder="Can I know your name, please">
+    <textarea placeholder="Do you need HELP?"></textarea>
+    <button>EMERGENCY</button>
+  </div>
+
+</body>
+</html>
